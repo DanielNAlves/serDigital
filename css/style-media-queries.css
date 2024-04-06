@@ -1,4 +1,9 @@
  @media screen and (min-width: 46.25rem) {
+    
+    .row {
+        gap: 1rem;
+    }
+
     .row>.md-3{
         grid-column: span 3;
     }
@@ -24,6 +29,10 @@
 
 } 
  @media screen and (min-width: 90rem) {
+
+    .row {
+        gap: 3rem;
+    }
     .row>.lg-3{
         grid-column: span 3;
     }
