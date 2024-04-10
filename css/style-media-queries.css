@@ -13,14 +13,23 @@
     }
 
     .header {
-        display: flex;
-        justify-content: space-between;
         align-items: center;
+    }
+
+    .menu-btn,
+    .menu-icon{
+        display: none;
     }
     
     .header-menu {
-        display: block;
+        /* display: block; */
         margin: 0;
+    }
+
+    .header-menu {
+        position: static;
+        max-height: initial;
+        background-color: initial;
     }
 
     .header-menu li{
@@ -31,8 +40,6 @@
     .header-menu a {
         padding: 1rem;
     }
-
- 
 
     .contact_image {
         display: block;
@@ -68,6 +75,9 @@
     }
 
 } 
+
+
+
  @media screen and (min-width: 90rem) {
     .hero-title {
         margin-bottom: 6.25rem;
